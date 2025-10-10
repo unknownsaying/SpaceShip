@@ -80,7 +80,7 @@ Function Cluster
  {}{}{}{}"
 End Function
 Function Physics
-Dim m1 = 1,m2 = 2, m3 = 3,m4 = 4
+Dim m1 = 1,m2 = 2,m3 = 3,m4 = 4
 Dim v1 = 6,v2 = 7,v3 = 8,v4 = 9
 Dim R1 = \,R2 = /,R3 = \/,R4 = /\
 Dim R6 = <>,R7 = (),R8 = [],R9 = {} 
