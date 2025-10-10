@@ -8,7 +8,7 @@ Case:
     MustOverride == MyClass
 
 Case:
-    Interface && Namespace
+    Inherits && Implements
 Case:
     Option || Optional
 Case:
