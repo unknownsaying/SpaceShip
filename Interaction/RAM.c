@@ -1,4 +1,4 @@
-int MobiusRing(Block){
+int MobiusRing(CreateBlock){
     "inline && extern"
 ;}
 float PenroseStage(EmptyBlock){
@@ -6,4 +6,5 @@ float PenroseStage(EmptyBlock){
 ;}
 double KleinBottle(DestroyeBlock){
     "auto == union"
+
 ;}
