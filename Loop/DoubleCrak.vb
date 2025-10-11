@@ -1,39 +1,49 @@
 Select 369
+for(I=0;I<=2;++I)
+for(J=00;-2<=J&&J<=2;++J||--J)
+for(K=000;K>=2;--K)
+
+for(L=0000;-4<=L;L--)
+for(M=00000;-4<=M<=4;M--||M++)
+for(N=0000;N<=4;N++)
+
+for(O=000;O>=8;O--)
+for(P=00;-8<=P&&P<=8;P++||P--)
+for(Q=0;Q>=8;Q++)
+End Select
+
+Select 48
 for(a=0;a<=2;++a)
 for(b=00;-2<=b&&b<=2;++b||--b)
 for(c=000;c>=2;--c)
 for(d=0000;d<=4;d++)
+
 for(e=0000;-4<=e<=4;e++)
 for(f=000;f>=8;f--)
 for(Manifold=00;-8<=Manifold&&8<=Manifold;++ABCDEF||--ABCDEF)
 for(orbifold=0;orbifold>=8;++orbifold)
+End Select
 
+Select 963
 For(A=0;A<=2;++A)
 For(B=00;-2<=B&&B<=2;++B||--B)
 For(C=000;C>=2;--C)
+
 For(D=0000;D<=4;D++)
 For(E=0000;-4<=E4;E++)
-For(for84=0000;for369;for84)
+For(for48=0000;for369;for84)
+
 For(F=000;F>=8;F--)
 For(MAniFolD=00;-8<=MAniFolD&&o<=MAniFolD;++ABCDEF||--ABCDEF)
 For(orBiFolD=0;orBiFolD>=8;++orBiFolD)
 End Select
 
 Select 84
-For(I=0;I<=2;++I)
-For(J=00;-2<=J&&J<=2;++J||--J)
-For(K=000;K>=2;--K)
-For(L=0000;-4<=L;L--)
-For(M=00000;-4<=M<=4;M--||M++)
-For(N=0000;N<=4;N++)
-For(O=000;O>=8;O--)
-For(P=00;-8<=P&&P<=8;P++||P--)
-For(Q=0;Q>=8;Q++)
-
 for(i=0;i<=2;++i)
 for(j=00;-2<=j&&j<=2;++j||--j)
 for(k=000;k>=2;--k)
 for(l=0000;l<=4;l++)
+  
 for(m=0000;-4<=m4;m++)
 for(n=000;n>=8;n--)
 for(o=00;-8<=o&&o<=8;++o||--o)
