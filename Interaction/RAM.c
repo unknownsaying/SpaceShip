@@ -6,5 +6,4 @@ float PenroseStage(EmptyBlock){
 ;}
 double KleinBottle(DestroyeBlock){
     "auto == union"
-
 ;}
