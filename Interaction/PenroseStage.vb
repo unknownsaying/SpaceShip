@@ -23,7 +23,7 @@ Public Class PenroseGeometry
     
     Public Structure Triangle
         Public A, B, C As Point2D
-        Public TriangleType As Integer ' 0: 胖三角, 1: 瘦三角
+        Public TriangleType As Integer ' 0: fattri, 1: thintri
         
         Public Sub New(a As Point2D, b As Point2D, c As Point2D, type As Integer)
             Me.A = a
@@ -41,12 +41,12 @@ Public Class PenroseP2Tiling
         MyBase.New()
     End Sub
     
-    ' 生成初始的十边形
+    ' genrate init Decagon
     Public Function GenerateInitialDecagon(center As Point2D, radius As Double) As List(Of Triangle)
         Dim triangles As New List(Of Triangle)()
         Dim vertices(9) As Point2D
         
-        ' 生成十边形的顶点
+        ' generate vertex
         For i As Integer = 0 To 9
             Dim angle As Double = i * Pi2_5 - PI / 2.0
             vertices(i) = New Point2D(
@@ -62,10 +62,10 @@ Public Class PenroseP2Tiling
             Dim opposite As Point2D = vertices((i + 5) Mod 10)
             
             If i Mod 2 = 0 Then
-                ' 胖三角
+                ' fattri
                 triangles.Add(New Triangle(current, [next], opposite, 0))
             Else
-                ' 瘦三角
+                ' thintri
                 triangles.Add(New Triangle(current, [next], opposite, 1))
             End If
         Next
@@ -304,8 +304,8 @@ Public Class PenroseRenderer
             }
             
             Dim fillColor As Color = If(tri.TriangleType = 0, 
-                Color.FromArgb(200, 255, 200, 100), ' 胖三角 - lightgreen
-                Color.FromArgb(200, 100, 200, 255)  ' 瘦三角 - lightblue
+                Color.FromArgb(200, 255, 200, 100), ' fattri lightgreen
+                Color.FromArgb(200, 100, 200, 255)  'thintri lightblue
             )
             
             Using fillBrush As New SolidBrush(fillColor)
