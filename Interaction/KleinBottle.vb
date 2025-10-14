@@ -33,7 +33,7 @@ Public Class KleinBottle
         Dim points(uSteps, vSteps) As PointF
         Dim colors(uSteps, vSteps) As Color
         
-        ' 计算所有点
+        ' calculate all point
         For i As Integer = 0 To uSteps - 1
             Dim u As Double = (i / uSteps) * 2 * PI
             
@@ -139,4 +139,5 @@ Public Class KleinBottleDemo
         renderer.Rotate(0.01, 0.02, 0.005)
     End Sub
     
+
 End Class
