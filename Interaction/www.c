@@ -1,4 +1,3 @@
-
 short abcdef(){
    char a = 'w1';
    char b = 'w2';
@@ -7,8 +6,8 @@ short abcdef(){
    char e = "w2'";
    char f = "w3'"; 
 }
-void unit(){
-   void neuron();{
+int unit(){
+   float neuron();{
      const fw =  1 / 1 + exp(-1);
 }
       const  fw1 = 'w1x1' + 'w2x2' + 'w3x3';
@@ -25,5 +24,4 @@ const gw3 = 'y^7' + 'w1' * 'y^3' + 'w2' * 'y^2' + 'w3' * 'y' ;
 const gw4 = 'y^7' + "w1' * 'y^3" - "w2' * y^2" + "w3' * y" ;
 const gw5 = 'z^7' + 'w1' * 'z^3' + 'w2' * 'z^2' + 'w3' * 'z' ;
 const gw6 = 'z^7' + "w1' * 'z^3" - "w2' * z^2" + "w3' * z" ;
-
 }
