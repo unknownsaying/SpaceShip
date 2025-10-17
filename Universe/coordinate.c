@@ -48,7 +48,7 @@ inline void mincowskispacetime(){
     matrix13 = 
             {{-3,0,0,0},
              {0,3,0,0},
-             {0,0,3,},
+             {0,0,3,0},
              {0,0,0,-3}}
     matrix14 = 
             {{-4,0,0,0},
@@ -146,3 +146,4 @@ this.lightspeed ->
 .matrix43 -> 15
 .matrix44 -> 16
 }
+
