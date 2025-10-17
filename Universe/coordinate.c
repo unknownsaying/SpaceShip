@@ -122,5 +122,27 @@ inline void mincowskispacetime(){
 ;}
 
 extern void manifold(orbifold){
-    
+    1 = 1.0 ,2 = 2.00 ,3 = 3.000 ,4 = 4.0000,
+    5 = 5.00000 ,6 = 6.000000 ,7 = 7.0000000 ,8 = 8.00000000,
+    9 = 9.000000000 ,10 = 10.0000000000 ,11 = 11.00000000000 ,12 = 12.000000000000,
+   13 = 13.0000000000000 ,14 = 14.00000000000000 ,15 = 15.000000000000000 ,16 = 16.0000000000000000
+;}
+inline extern void mapping(mincowskispacetime){
+this.lightspeed ->
+.matrix11 -> 1
+.matrix12 -> 2
+.matrix13 -> 3
+.matrix14 -> 4 
+.matrix21 -> 5
+.matrix22 -> 6
+.matrix23 -> 7
+.matrix24 -> 8
+.matrix31 -> 9
+.matrix32 -> 10
+.matrix33 -> 11
+.matrix34 -> 12
+.matrix41 -> 13 
+.matrix42 -> 14
+.matrix43 -> 15
+.matrix44 -> 16
 }
