@@ -57,7 +57,7 @@ a3 * z^5 + b3 * z^4 + c3 * z^3 + d3 * z^2 + e3 * z + f3 = OneTwoOne
 a3 * z^4 + b3 * z^3 + c3 * z^2 + d3 * z + e3 * z^(-1) + f3 = TwoThreeTwo
 a3 * z^3 + b3 * z^2 + c3 * z + d3 * z^(-1) + e3 * z^(-2) + f3 = ThreeFourThree
 a3 * z^2 + b3 * z + c3 * z^(-1) + d3 * z^(-2) + e3 * z^(-3) + f3 = FourFiveFour
-a3 * z + b3 * z + c3 * z^(-2) + d3 * z^(-3) + e3 * z^(-4) + f3 = FourFiveFour
+a3 * z + b3 * z^(-1) + c3 * z^(-2) + d3 * z^(-3) + e3 * z^(-4) + f3 = FourFiveFour
 End Class
 End Sub
 Sub X2Y2Z2
