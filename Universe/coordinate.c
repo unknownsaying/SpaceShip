@@ -1,4 +1,5 @@
-#define c 299792458 lightspeed
+//lightspeed
+#define c 299792458 
 void sphere(int radius,float theta,double fai){    
     char radius, theta, fai;
     typedef X ; radius * sin(theta) * cos(fai);
@@ -32,5 +33,5 @@ void sphere(){
     Coordinate(acos(-1/3), 0,0), // B
     Coordinate(0, -acos(-1/3),0), // C
     Coordinate(0,0,acos(-1/3)) // D
-;
-ee}
+
+;}
