@@ -91,10 +91,10 @@ Sub hexagon
      \_/";
 End Sub
 Enum DNA
-      ["A : a / b - c '\',d '\' e _ f /"]
-      ["C : g / h - i '\',j '\' k _ l /"]
-      ["G : m / n - o '\',p '\' q _ r /"]
-      ["T : s / t - u '\',v '\' w _ w /"]
+      ["A : a / b - c \ d \ e _ f /"]
+      ["C : g / h - i \ j \ k _ l /"]
+      ["G : m / n - o \ p \ q _ r /"]
+      ["T : s / t - u \ v \ w _ w /"]
 End Enum
 
 Sub pentagon
@@ -102,9 +102,9 @@ Sub pentagon
      \_/";
 End Sub
 Enum RNA
-   ["A : a / b '\' c '\' d _ e /"]
-   ["C : f / g '\' i '\' j _ k /"]
-   ["G : l / m '\' n '\' o _ p /"]
+   ["A : a / b \ c \ d _ e /"]
+   ["C : f / g \ i \ j _ k /"]
+   ["G : l / m \ n \ o _ p /"]
    ["U : x | y | z"]
 End Enum
 
@@ -175,4 +175,5 @@ Function Pyrimidine
     ["A" "C" "G" "U"]
     ["A=T"]
     ["C≡G"]
+
 End Function
