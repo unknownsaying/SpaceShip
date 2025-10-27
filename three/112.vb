@@ -417,15 +417,16 @@ console.WriteLine(square3,square4,square5,square6,square7,square8,square9)
 const DET = det
 const tri = tri - antitri
 const ONE = one + oppoone
-const Square = square - antisquare
-const Pyramid = pyramid / antipyramid
-
 const DETtri = DET * tri
 const triDET = tri * DET
-const ONEsquare = ONE * square
-const squareONE = square / ONE
+
+const Square = square - antisquare
+const Pyramid = pyramid - antipyramid
+const ONEsquare = ONE % square
+const squareONE = square % ONE
 const oppoPyramid = antipyramid / pyramid
 const dimPyramid = oppopyramid / Pyramid
+
 Sub SUM
      ["DET/tri"+"tri/DET" == "DETtri"+"triDET"]
      ["DETtri"+"ONEsquare" == "squareONE"+"triDET"]
