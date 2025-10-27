@@ -425,7 +425,7 @@ const triDET = tri * DET
 const ONEsquare = ONE * square
 const squareONE = square / ONE
 const oppoPyramid = antipyramid / pyramid
-const dimPyramid = square - antisquare
+const dimPyramid = oppopyramid / Pyramid
 Sub SUM
      ["DET/tri"+"tri/DET" == "DETtri"+"triDET"]
      ["DETtri"+"ONEsquare" == "squareONE"+"triDET"]
