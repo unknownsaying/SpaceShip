@@ -326,7 +326,7 @@ const impact4 = "element17 % element18 % element19 % element20"
 
 const impact5 = "impact0 * impact1" + "impact2 * impact3"
 const impact6 = "impact1 - impact2" + "impact3 - impact4"
-const impact7 = "impact2 / impact3" + "impact4 / impact0"
+const impact7 = "impact2 / impact3" + "impact4 / impact1"
 const impact8 = "impact3 % impact4" + "impact1 % impact2"
 
 Console.WriteLine(impact0, impact1, impact2, impact3, impact4, impact5, impact6, impact7, impact8)
