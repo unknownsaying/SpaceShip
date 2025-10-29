@@ -139,5 +139,4 @@ Public Class KleinBottleDemo
         renderer.Rotate(0.01, 0.02, 0.005)
     End Sub
     
-
 End Class
