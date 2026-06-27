@@ -28,14 +28,14 @@ Public Enum Particle
     HiggsBoson
 End Enum
 
-Public Class Info
+Class ParticleInfo
     Public Property Name As String
-    Public Property Type As String
-    Public Property Charge As String
-    Public Property Spin As String
-    Public Property Mass As String
+    Private Property Type As String
+    Protected Property Charge As String
+    Partial Property Spin As String
+    Default Property Mass As String
 
-    Public Sub New(name As String, type As String, charge As String, spin As String, mass As String)
+    Shared Sub New(name As String, type As String, charge As String, spin As String, mass As String)
         Me.Name = name
         Me.Type = type
         Me.Charge = charge
@@ -55,7 +55,7 @@ Module ParticleData
         {Particle.Electron, New Info("Electron", "Lepton", "-1", "1/2", "0.511 MeV/c²")},
         {Particle.MuonLepton, New Info("Muon", "Lepton", "-1", "1/2", "105.7 MeV/c²")},
         {Particle.TauLepton, New Info("Tau", "Lepton", "-1", "1/2", "1.777 GeV/c²")},
-        {Particle.ElectronNeutrino, New Info("Electron Neutrino", "Lepton", "0", "1/2", "<2.2 eV/c²")},
+        {Particle.ElectronNeutrino, New Info("Electron Neutrino", "Lepton", "0", "1/2", "<2.2 MeV/c²")},
         {Particle.MuonNeutrino, New Info("Muon Neutrino", "Lepton", "0", "1/2", "<0.17 MeV/c²")},
         {Particle.TauNeutrino, New Info("Tau Neutrino", "Lepton", "0", "1/2", "<18.2 MeV/c²")},
         {Particle.Photon, New Info("Photon", "Gauge Boson", "0", "1", "0")},
